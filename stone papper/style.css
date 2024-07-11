@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body{
+    background-image: url("g2.jpeg");
+}
+
+h1{
+    background-color: #081b31;
+    color: white;
+    height: 5rem;
+    line-height: 5rem;
+    
+}
+.choice{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.choice:hover{
+    opacity: 0.3;
+    cursor: pointer;
+    background-color: #081b31;
+
+
+}
+img{
+    height: 150px;
+    width: 150px; 
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+.score-bord{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap: 6rem;
+    margin-top: 3rem;
+
+}
+#user-score,#comp-score{
+    font-size: 4rem;
+}
+.msg-container{
+    margin-top: 5rem;
+}
+#msg{
+    
+    color: #2A0320;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem ;
+    background: transparent;
+    border: 2px solid rgba(150, 11, 11, 0.2);
+    backdrop-filter: blur(20px);
+
+}
+.new{
+    background-color: green;
+}
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+    
+  }
